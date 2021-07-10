@@ -1,3 +1,4 @@
+import SignInButton from './SignInButton';
 import styles from './styles.module.scss';
 
 const Header = () => {
@@ -9,6 +10,8 @@ const Header = () => {
           <a href="#" className={styles.active}>Home</a>
           <a href="#">Posts</a>
         </nav>
+
+        <SignInButton />
       </div>
     </header>
   )
