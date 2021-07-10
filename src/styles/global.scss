@@ -9,7 +9,8 @@
 
   --gray-0: #E1E1E6;
   --gray-1: #A8A8B3;
-  --gray-2: #121214;
+  --gray-2: #29292e;
+  --gray-3: #121214;
   
   --cyan: #61DCFB;
   --yellow: #EBA417;
@@ -28,7 +29,7 @@
 }
 
 body {
-  background: var(--gray-2);
+  background: var(--gray-3);
   color: var(--white);
 }
 
